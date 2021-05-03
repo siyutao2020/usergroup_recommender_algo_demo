@@ -9,4 +9,6 @@ import pyro.distributions as dist
 
 import matplotlib.pyplot as plt
 
+from pyro.poutine import block
+
 torch.linalg.norm()
